@@ -1,0 +1,25 @@
+#profile{
+    width: 100px;
+    height: 50;
+}
+
+
+
+body{
+    margin-left: 20px;
+}
+a[href$=".com"]{
+    color: green; 
+}    
+a[href$=".com"]{
+    color: red;
+}
+div.parent  p{
+    color:red;    
+    font-weight: bold;
+
+    
+}
+a:hover{
+    color: green;
+}
