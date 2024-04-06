@@ -23,3 +23,19 @@ div.parent  p{
 a:hover{
     color: green;
 }
+p:last-of-type::first-letter{
+    color: gold;
+    font-size: 140%;
+}
+p::first-line{
+    font-weight: bold;
+}
+p::selection{
+    color: blue;
+    background-color: green;
+}
+p::before{
+    content: "...";
+   
+
+}
